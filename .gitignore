@@ -1,0 +1,18 @@
+# dado bruto do SNAP (1,05 GB) - reconstruido pelo Passo 1 do README
+dados_brutos/
+*.aux
+*.log
+*.out
+*.synctex.gz
+__pycache__/
+*.pyc
+
+# intermediarios regeneraveis (grandes): recriados pelos passos 1 e 2
+dados/arestas_dirigidas.csv
+dados/arestas_dirigidas_id.csv
+
+# copias de entrega (o PDF versionado e relatorio/224216278.pdf)
+/224216278.pdf
+/TP2_224216278.zip
+/relatorio_fontes.zip
+dados/arestas_dirigidas_set.csv

@@ -1,0 +1,70 @@
+{
+  "real": {
+    "modelo": "G106 (memetracker9, ago/2008)",
+    "n": 673017,
+    "m": 1614246,
+    "grau_medio": 4.7970437596672895,
+    "grau_max": 23196,
+    "clusterizacao_media": 0.04501593992178114,
+    "transitividade_global": 0.001839403574126043,
+    "caminho_medio": 4.351248183350314,
+    "caminho_medio_ic95": [
+      4.295680246033937,
+      4.40681612066669
+    ],
+    "fracao_componente_gigante": 0.9392288753478738,
+    "assortatividade_grau": -0.10387010035349216,
+    "gamma_cauda_5pct": 2.1231488247755204
+  },
+  "er": {
+    "modelo": "Erdos-Renyi G(n,m)",
+    "n": 673017,
+    "m": 1614246,
+    "grau_medio": 4.7970437596672895,
+    "grau_max": 19,
+    "clusterizacao_media": 1.098422260146258e-05,
+    "transitividade_global": 8.913267320900487e-06,
+    "caminho_medio": 8.706108017355668,
+    "caminho_medio_ic95": [
+      8.667858838733524,
+      8.74435719597781
+    ],
+    "fracao_componente_gigante": 0.9914979859349764,
+    "assortatividade_grau": -0.0007829743821925592,
+    "gamma_cauda_5pct": 8.621297109641304
+  },
+  "ba": {
+    "modelo": "Barabasi-Albert (m=2)",
+    "n": 673017,
+    "m": 1346031,
+    "grau_medio": 3.999991084920589,
+    "grau_max": 807,
+    "clusterizacao_media": 4.62152829021234e-05,
+    "transitividade_global": 4.15616408724733e-05,
+    "caminho_medio": 7.2413049912632115,
+    "caminho_medio_ic95": [
+      7.182682012675831,
+      7.299927969850592
+    ],
+    "fracao_componente_gigante": 1.0,
+    "assortatividade_grau": 0.005973473732070183,
+    "gamma_cauda_5pct": 3.1473782951930014
+  },
+  "ws": {
+    "modelo": "Watts-Strogatz (k=4, p=0.05)",
+    "n": 673017,
+    "m": 1346034,
+    "grau_medio": 4.0,
+    "grau_max": 9,
+    "clusterizacao_media": 0.37405473920079046,
+    "transitividade_global": 0.35556442417878764,
+    "caminho_medio": 19.27584038493446,
+    "caminho_medio_ic95": [
+      19.17619367537752,
+      19.375487094491405
+    ],
+    "fracao_componente_gigante": 0.9999985141534314,
+    "assortatividade_grau": -0.00026636868790473785,
+    "gamma_cauda_5pct": 9.080902404237328
+  }
+}

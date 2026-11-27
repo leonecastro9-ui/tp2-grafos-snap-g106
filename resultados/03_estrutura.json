@@ -1,0 +1,168 @@
+{
+  "n_vertices": 673017,
+  "n_arestas": 1614246,
+  "grau_min": 1,
+  "grau_max": 23196,
+  "grau_medio": 4.7970437596672895,
+  "grau_mediano": 1.0,
+  "grau_desvio": 81.64868038218229,
+  "densidade": 7.127681599943076e-06,
+  "n_componentes": 17265,
+  "maiores_componentes": [
+    632117,
+    119,
+    105,
+    69,
+    68,
+    42,
+    41,
+    41,
+    41,
+    37
+  ],
+  "componentes_tamanho_1": 0,
+  "componentes_tamanho_2": 14037,
+  "componentes_menores_que_10": 17188,
+  "hubs": [
+    {
+      "site": "blogger.com",
+      "grau": 23196
+    },
+    {
+      "site": "4.bp.blogspot.com",
+      "grau": 19099
+    },
+    {
+      "site": "1.bp.blogspot.com",
+      "grau": 19076
+    },
+    {
+      "site": "2.bp.blogspot.com",
+      "grau": 18942
+    },
+    {
+      "site": "3.bp.blogspot.com",
+      "grau": 18906
+    },
+    {
+      "site": "en.wikipedia.org",
+      "grau": 14992
+    },
+    {
+      "site": "bp3.blogger.com",
+      "grau": 13822
+    },
+    {
+      "site": "bp2.blogger.com",
+      "grau": 13784
+    },
+    {
+      "site": "bp1.blogger.com",
+      "grau": 13750
+    },
+    {
+      "site": "bp0.blogger.com",
+      "grau": 13736
+    },
+    {
+      "site": "presearch.oops.jp",
+      "grau": 11489
+    },
+    {
+      "site": "sulit.com.ph",
+      "grau": 11324
+    },
+    {
+      "site": "wordlank.mods.jp",
+      "grau": 11280
+    },
+    {
+      "site": "mixfind.whitesnow.jp",
+      "grau": 10230
+    },
+    {
+      "site": "nnseek.com",
+      "grau": 9397
+    },
+    {
+      "site": "youtube.com",
+      "grau": 8836
+    },
+    {
+      "site": "d.hatena.ne.jp",
+      "grau": 7786
+    },
+    {
+      "site": "articlesbase.com",
+      "grau": 7752
+    },
+    {
+      "site": "ameblo.jp",
+      "grau": 6764
+    },
+    {
+      "site": "flickr.com",
+      "grau": 6610
+    },
+    {
+      "site": "amazon.com",
+      "grau": 5403
+    },
+    {
+      "site": "pr-inside.com",
+      "grau": 5122
+    },
+    {
+      "site": "feeds.gothamistllc.com",
+      "grau": 4598
+    },
+    {
+      "site": "barcamp.org",
+      "grau": 4365
+    },
+    {
+      "site": "prnewsnow.com",
+      "grau": 4099
+    }
+  ],
+  "transitividade_global": 0.001839403574126043,
+  "clusterizacao_media": 0.04501593992178114,
+  "n_triplas_conectadas": 2249462303.0,
+  "n_triangulos": 1379223,
+  "tempo_clusterizacao_s": 1.5527479648590088,
+  "cg": {
+    "n_vertices": 632117,
+    "n_arestas": 1590365,
+    "fracao_vertices": 0.9392288753478738,
+    "fracao_arestas": 0.9852060962207743,
+    "grau_min": 1,
+    "grau_max": 23196,
+    "grau_medio": 5.031869100182403,
+    "densidade": 7.96035711828589e-06,
+    "clusterizacao_media": 0.04785050939272386,
+    "transitividade_global": 0.0018392865992714852,
+    "distancias": {
+      "diametro": 21,
+      "raio": 11,
+      "diametro_lb": 21,
+      "diametro_ub": 22,
+      "raio_lb": 11,
+      "raio_ub": 11,
+      "bfs_executadas": 14,
+      "candidatos_restantes": 0,
+      "exato": true,
+      "tempo_s": 3.0781636238098145
+    },
+    "caminho_medio": {
+      "estimativa": 4.347599246024464,
+      "desvio_padrao": 0.47683036600591655,
+      "ic95": [
+        4.318045536807285,
+        4.377152955241642
+      ],
+      "n_fontes": 1000,
+      "excentricidade_max_amostrada": 17,
+      "tempo_s": 212.60894894599915
+    }
+  }
+}

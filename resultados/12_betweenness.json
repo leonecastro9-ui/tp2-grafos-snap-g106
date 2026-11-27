@@ -1,0 +1,110 @@
+{
+  "validacao": {
+    "grafos_testados": 5,
+    "falhas": [],
+    "status": "OK"
+  },
+  "n": 632117,
+  "m": 1590365,
+  "r": 31605,
+  "K_pivos": 400,
+  "tempo_brandes_s": 1271.9141986370087,
+  "tempo_estimado_exato_h": 558.3323524304375,
+  "top_betweenness": [
+    {
+      "site": "blogger.com",
+      "betweenness_estimada": 25531812139.647152,
+      "grau": 23196
+    },
+    {
+      "site": "en.wikipedia.org",
+      "betweenness_estimada": 22530010023.999695,
+      "grau": 14992
+    },
+    {
+      "site": "youtube.com",
+      "betweenness_estimada": 13147949432.306112,
+      "grau": 8836
+    },
+    {
+      "site": "4.bp.blogspot.com",
+      "betweenness_estimada": 9039772253.7348,
+      "grau": 19099
+    },
+    {
+      "site": "presearch.oops.jp",
+      "betweenness_estimada": 8950366806.12257,
+      "grau": 11489
+    },
+    {
+      "site": "flickr.com",
+      "betweenness_estimada": 8094116787.759157,
+      "grau": 6610
+    },
+    {
+      "site": "d.hatena.ne.jp",
+      "betweenness_estimada": 7779591977.498166,
+      "grau": 7786
+    },
+    {
+      "site": "3.bp.blogspot.com",
+      "betweenness_estimada": 7533569344.867663,
+      "grau": 18906
+    },
+    {
+      "site": "2.bp.blogspot.com",
+      "betweenness_estimada": 7264082187.154234,
+      "grau": 18942
+    },
+    {
+      "site": "1.bp.blogspot.com",
+      "betweenness_estimada": 7252223305.52246,
+      "grau": 19076
+    },
+    {
+      "site": "bp2.blogger.com",
+      "betweenness_estimada": 6448070984.081856,
+      "grau": 13784
+    },
+    {
+      "site": "bp3.blogger.com",
+      "betweenness_estimada": 6177274866.909435,
+      "grau": 13822
+    },
+    {
+      "site": "bp1.blogger.com",
+      "betweenness_estimada": 6138051542.070786,
+      "grau": 13750
+    },
+    {
+      "site": "wordlank.mods.jp",
+      "betweenness_estimada": 6069380180.59815,
+      "grau": 11280
+    },
+    {
+      "site": "sulit.com.ph",
+      "betweenness_estimada": 5932186607.56688,
+      "grau": 11324
+    }
+  ],
+  "sobreposicao_com_grau": 0.7549438380003164,
+  "correlacao_spearman_grau_betweenness": 0.9144387440916757,
+  "ataque_betweenness": {
+    "cenario": "ataque por betweenness",
+    "A_maior_componente": 65528,
+    "A_fracao_do_original": 0.1036643532763713,
+    "B_n_componentes": 481547,
+    "C_caminho_medio": 14.186430529908794,
+    "C_diametro": 44,
+    "D_fracao_isolados": 0.7598132926569328
+  },
+  "ataque_grau": {
+    "cenario": "ataque por grau",
+    "A_maior_componente": 38937,
+    "A_fracao_do_original": 0.06159777382984479,
+    "B_n_componentes": 470352,
+    "C_caminho_medio": 33.548312958016574,
+    "C_diametro": 85,
+    "D_fracao_isolados": 0.7353791431311947
+  }
+}

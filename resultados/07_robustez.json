@@ -1,0 +1,639 @@
+{
+  "n": 632117,
+  "m": 1590365,
+  "r": 31605,
+  "T": 30,
+  "politica": "componente gigante",
+  "intacto": {
+    "A_maior_componente": 632117,
+    "A_fracao": 1.0,
+    "A_fracao_do_original": 1.0,
+    "B_n_componentes": 1,
+    "D_isolados": 0,
+    "D_fracao_isolados": 0.0,
+    "C_caminho_medio": 4.336156686430972,
+    "C_caminho_medio_ic95": [
+      4.25499424077305,
+      4.4173191320888945
+    ],
+    "C_diametro": 21,
+    "C_diametro_exato": true
+  },
+  "aleatorio": {
+    "repeticoes": [
+      {
+        "A_maior_componente": 582693,
+        "A_fracao": 0.9703269876372163,
+        "A_fracao_do_original": 0.9218119430421899,
+        "B_n_componentes": 16917,
+        "D_isolados": 16363,
+        "D_fracao_isolados": 0.0272484146861345,
+        "C_caminho_medio": 4.327772305094286,
+        "C_caminho_medio_ic95": [
+          4.236593208602804,
+          4.418951401585768
+        ],
+        "C_diametro": 20,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 578134,
+        "A_fracao": 0.9627351326867739,
+        "A_fracao_do_original": 0.9145996706305953,
+        "B_n_componentes": 21085,
+        "D_isolados": 20383,
+        "D_fracao_isolados": 0.03394270222743259,
+        "C_caminho_medio": 4.363021334767836,
+        "C_caminho_medio_ic95": [
+          4.293990519669022,
+          4.432052149866651
+        ],
+        "C_diametro": 22,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 581290,
+        "A_fracao": 0.96799064798039,
+        "A_fracao_do_original": 0.9195924172265577,
+        "B_n_componentes": 18373,
+        "D_isolados": 17909,
+        "D_fracao_isolados": 0.029822884471917298,
+        "C_caminho_medio": 4.303291994171573,
+        "C_caminho_medio_ic95": [
+          4.22372757885339,
+          4.382856409489756
+        ],
+        "C_diametro": 19,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 584515,
+        "A_fracao": 0.9733610652243418,
+        "A_fracao_do_original": 0.9246943208298464,
+        "B_n_componentes": 15082,
+        "D_isolados": 14537,
+        "D_fracao_isolados": 0.024207676116380687,
+        "C_caminho_medio": 4.368473444034988,
+        "C_caminho_medio_ic95": [
+          4.290411188884594,
+          4.446535699185382
+        ],
+        "C_diametro": 19,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 579298,
+        "A_fracao": 0.9646734786315677,
+        "A_fracao_do_original": 0.9164411018846195,
+        "B_n_componentes": 20191,
+        "D_isolados": 19562,
+        "D_fracao_isolados": 0.032575535543003305,
+        "C_caminho_medio": 4.40428334113014,
+        "C_caminho_medio_ic95": [
+          4.310942304008774,
+          4.497624378251505
+        ],
+        "C_diametro": 23,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 579833,
+        "A_fracao": 0.9655643850580837,
+        "A_fracao_do_original": 0.9172874641878007,
+        "B_n_componentes": 19735,
+        "D_isolados": 19150,
+        "D_fracao_isolados": 0.0318894543323031,
+        "C_caminho_medio": 4.389125850246279,
+        "C_caminho_medio_ic95": [
+          4.3090644041447135,
+          4.469187296347844
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 580111,
+        "A_fracao": 0.9660273233507407,
+        "A_fracao_do_original": 0.9177272561883322,
+        "B_n_componentes": 19303,
+        "D_isolados": 18724,
+        "D_fracao_isolados": 0.031180059682404348,
+        "C_caminho_medio": 4.30800381536835,
+        "C_caminho_medio_ic95": [
+          4.223597894854303,
+          4.392409735882397
+        ],
+        "C_diametro": 22,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 580800,
+        "A_fracao": 0.9671746776084408,
+        "A_fracao_do_original": 0.9188172442759805,
+        "B_n_componentes": 18875,
+        "D_isolados": 18358,
+        "D_fracao_isolados": 0.030570579771927956,
+        "C_caminho_medio": 4.270547240382072,
+        "C_caminho_medio_ic95": [
+          4.1897996513647255,
+          4.351294829399419
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 580037,
+        "A_fracao": 0.9659040951721198,
+        "A_fracao_do_original": 0.9176101892529389,
+        "B_n_componentes": 19583,
+        "D_isolados": 19028,
+        "D_fracao_isolados": 0.031686294362144304,
+        "C_caminho_medio": 4.354947750369518,
+        "C_caminho_medio_ic95": [
+          4.272179155001553,
+          4.437716345737482
+        ],
+        "C_diametro": 23,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 581581,
+        "A_fracao": 0.9684752344665886,
+        "A_fracao_do_original": 0.9200527750400638,
+        "B_n_componentes": 17990,
+        "D_isolados": 17468,
+        "D_fracao_isolados": 0.029088511137162956,
+        "C_caminho_medio": 4.331179900730196,
+        "C_caminho_medio_ic95": [
+          4.26036194890019,
+          4.401997852560202
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 583159,
+        "A_fracao": 0.9711029921133966,
+        "A_fracao_do_original": 0.922549148338045,
+        "B_n_componentes": 16459,
+        "D_isolados": 15930,
+        "D_fracao_isolados": 0.02652736331663647,
+        "C_caminho_medio": 4.30401431515987,
+        "C_caminho_medio_ic95": [
+          4.222892587707793,
+          4.385136042611947
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 580454,
+        "A_fracao": 0.9665985026111051,
+        "A_fracao_do_original": 0.9182698772537362,
+        "B_n_componentes": 18542,
+        "D_isolados": 17748,
+        "D_fracao_isolados": 0.029554779921133964,
+        "C_caminho_medio": 4.462290452456961,
+        "C_caminho_medio_ic95": [
+          4.37488975234043,
+          4.549691152573492
+        ],
+        "C_diametro": 19,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 585001,
+        "A_fracao": 0.974170374613663,
+        "A_fracao_do_original": 0.9254631658379698,
+        "B_n_componentes": 14716,
+        "D_isolados": 14213,
+        "D_fracao_isolados": 0.023668136523499948,
+        "C_caminho_medio": 4.296566256410257,
+        "C_caminho_medio_ic95": [
+          4.207416821991181,
+          4.385715690829333
+        ],
+        "C_diametro": 20,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 562045,
+        "A_fracao": 0.9359429953106683,
+        "A_fracao_do_original": 0.8891471040962353,
+        "B_n_componentes": 36316,
+        "D_isolados": 35413,
+        "D_fracao_isolados": 0.058971344452733665,
+        "C_caminho_medio": 4.376009244827807,
+        "C_caminho_medio_ic95": [
+          4.270805930583667,
+          4.481212559071946
+        ],
+        "C_diametro": 19,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 583079,
+        "A_fracao": 0.9709697724608334,
+        "A_fracao_do_original": 0.9224225894889712,
+        "B_n_componentes": 16529,
+        "D_isolados": 15999,
+        "D_fracao_isolados": 0.026642265266972182,
+        "C_caminho_medio": 4.3968840189477225,
+        "C_caminho_medio_ic95": [
+          4.2724010827489165,
+          4.5213669551465285
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 577131,
+        "A_fracao": 0.9610648912927635,
+        "A_fracao_do_original": 0.9130129390603322,
+        "B_n_componentes": 22135,
+        "D_isolados": 21378,
+        "D_fracao_isolados": 0.03559962165618672,
+        "C_caminho_medio": 4.362995512276264,
+        "C_caminho_medio_ic95": [
+          4.277217396689073,
+          4.448773627863455
+        ],
+        "C_diametro": 20,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 584486,
+        "A_fracao": 0.9733127731002877,
+        "A_fracao_do_original": 0.9246484432470571,
+        "B_n_componentes": 15241,
+        "D_isolados": 14756,
+        "D_fracao_isolados": 0.0245723649152723,
+        "C_caminho_medio": 4.324324000330775,
+        "C_caminho_medio_ic95": [
+          4.252864349465179,
+          4.395783651196371
+        ],
+        "C_diametro": 20,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 582858,
+        "A_fracao": 0.9706017531706277,
+        "A_fracao_do_original": 0.9220729706684048,
+        "B_n_componentes": 16874,
+        "D_isolados": 16384,
+        "D_fracao_isolados": 0.027283384844932323,
+        "C_caminho_medio": 4.295485319154898,
+        "C_caminho_medio_ic95": [
+          4.218386863533824,
+          4.372583774775973
+        ],
+        "C_diametro": 22,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 582717,
+        "A_fracao": 0.9703669535329852,
+        "A_fracao_do_original": 0.9218499106969121,
+        "B_n_componentes": 16775,
+        "D_isolados": 16178,
+        "D_fracao_isolados": 0.026940344239582224,
+        "C_caminho_medio": 4.315154231792731,
+        "C_caminho_medio_ic95": [
+          4.235864435010998,
+          4.394444028574465
+        ],
+        "C_diametro": 19,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 581335,
+        "A_fracao": 0.9680655840349568,
+        "A_fracao_do_original": 0.9196636065791618,
+        "B_n_componentes": 18270,
+        "D_isolados": 17727,
+        "D_fracao_isolados": 0.02951980976233614,
+        "C_caminho_medio": 4.326152573219526,
+        "C_caminho_medio_ic95": [
+          4.238375139314773,
+          4.413930007124279
+        ],
+        "C_diametro": 22,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 582032,
+        "A_fracao": 0.9692262602579133,
+        "A_fracao_do_original": 0.9207662505517175,
+        "B_n_componentes": 17599,
+        "D_isolados": 17039,
+        "D_fracao_isolados": 0.028374120750293084,
+        "C_caminho_medio": 4.338607554122261,
+        "C_caminho_medio_ic95": [
+          4.25827889910198,
+          4.418936209142541
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 580529,
+        "A_fracao": 0.9667233960353832,
+        "A_fracao_do_original": 0.918388526174743,
+        "B_n_componentes": 18740,
+        "D_isolados": 17989,
+        "D_fracao_isolados": 0.029956104124480444,
+        "C_caminho_medio": 4.415351932493637,
+        "C_caminho_medio_ic95": [
+          4.313679702972636,
+          4.517024162014638
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 575084,
+        "A_fracao": 0.957656133432804,
+        "A_fracao_do_original": 0.9097746145096557,
+        "B_n_componentes": 24397,
+        "D_isolados": 23807,
+        "D_fracao_isolados": 0.03964450335713524,
+        "C_caminho_medio": 4.363650615070636,
+        "C_caminho_medio_ic95": [
+          4.276817944934179,
+          4.450483285207093
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 575017,
+        "A_fracao": 0.9575445619737823,
+        "A_fracao_do_original": 0.9096686214735563,
+        "B_n_componentes": 24412,
+        "D_isolados": 23820,
+        "D_fracao_isolados": 0.03966615155067676,
+        "C_caminho_medio": 4.33952002495003,
+        "C_caminho_medio_ic95": [
+          4.24935145230356,
+          4.4296885975965
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 578971,
+        "A_fracao": 0.9641289433017158,
+        "A_fracao_do_original": 0.9159237925890302,
+        "B_n_componentes": 20656,
+        "D_isolados": 20097,
+        "D_fracao_isolados": 0.033466441969519346,
+        "C_caminho_medio": 4.287012591325976,
+        "C_caminho_medio_ic95": [
+          4.219236377855109,
+          4.354788804796842
+        ],
+        "C_diametro": 22,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 582077,
+        "A_fracao": 0.96930119631248,
+        "A_fracao_do_original": 0.9208374399043215,
+        "B_n_componentes": 17378,
+        "D_isolados": 16757,
+        "D_fracao_isolados": 0.027904521475007993,
+        "C_caminho_medio": 4.364651946939347,
+        "C_caminho_medio_ic95": [
+          4.293447972473224,
+          4.435855921405469
+        ],
+        "C_diametro": 19,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 582865,
+        "A_fracao": 0.970613409890227,
+        "A_fracao_do_original": 0.9220840445676987,
+        "B_n_componentes": 16794,
+        "D_isolados": 16266,
+        "D_fracao_isolados": 0.027086885857401682,
+        "C_caminho_medio": 4.404281810736867,
+        "C_caminho_medio_ic95": [
+          4.313208275775228,
+          4.495355345698506
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 583046,
+        "A_fracao": 0.9709148193541511,
+        "A_fracao_do_original": 0.9223703839637283,
+        "B_n_componentes": 16553,
+        "D_isolados": 16007,
+        "D_fracao_isolados": 0.0266555872322285,
+        "C_caminho_medio": 4.354491585841001,
+        "C_caminho_medio_ic95": [
+          4.286886026330749,
+          4.422097145351253
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 581273,
+        "A_fracao": 0.9679623388042204,
+        "A_fracao_do_original": 0.9195655234711295,
+        "B_n_componentes": 18330,
+        "D_isolados": 17822,
+        "D_fracao_isolados": 0.029678008099754877,
+        "C_caminho_medio": 4.368832720883396,
+        "C_caminho_medio_ic95": [
+          4.277879760470399,
+          4.459785681296393
+        ],
+        "C_diametro": 20,
+        "C_diametro_exato": true
+      },
+      {
+        "A_maior_componente": 582959,
+        "A_fracao": 0.9707699429819887,
+        "A_fracao_do_original": 0.9222327512153604,
+        "B_n_componentes": 16574,
+        "D_isolados": 16056,
+        "D_fracao_isolados": 0.026737184269423425,
+        "C_caminho_medio": 4.391978198543749,
+        "C_caminho_medio_ic95": [
+          4.289172326170446,
+          4.494784070917053
+        ],
+        "C_diametro": 21,
+        "C_diametro_exato": true
+      }
+    ],
+    "A_maior_componente": {
+      "media": 580480.3333333334,
+      "desvio": 4270.681527887987,
+      "ic95": [
+        578952.1176570992,
+        582008.5490095676
+      ],
+      "min": 562045.0,
+      "max": 585001.0
+    },
+    "A_fracao_do_original": {
+      "media": 0.918311536208223,
+      "desvio": 0.006756156736629431,
+      "ic95": [
+        0.9158939209942132,
+        0.9207291514222329
+      ],
+      "min": 0.8891471040962353,
+      "max": 0.9254631658379698
+    },
+    "B_n_componentes": {
+      "media": 19014.133333333335,
+      "desvio": 4050.501048047005,
+      "ic95": [
+        17564.706782136014,
+        20463.559884530656
+      ],
+      "min": 14716.0,
+      "max": 36316.0
+    },
+    "C_caminho_medio": {
+      "media": 4.350296729392631,
+      "desvio": 0.04398881494203759,
+      "ic95": [
+        4.334555823372266,
+        4.3660376354129955
+      ],
+      "min": 4.270547240382072,
+      "max": 4.462290452456961
+    },
+    "C_diametro": {
+      "media": 20.733333333333334,
+      "desvio": 1.1724814044061256,
+      "ic95": [
+        20.313773960758734,
+        21.152892705907934
+      ],
+      "min": 19.0,
+      "max": 23.0
+    },
+    "D_fracao_isolados": {
+      "media": 0.030688701197200612,
+      "desvio": 0.006629973427922442,
+      "ic95": [
+        0.028316239270596025,
+        0.0330611631238052
+      ],
+      "min": 0.023668136523499948,
+      "max": 0.058971344452733665
+    }
+  },
+  "ataque_grau_top10": [
+    {
+      "site": "blogger.com",
+      "grau": 23196
+    },
+    {
+      "site": "4.bp.blogspot.com",
+      "grau": 19099
+    },
+    {
+      "site": "1.bp.blogspot.com",
+      "grau": 19076
+    },
+    {
+      "site": "2.bp.blogspot.com",
+      "grau": 18942
+    },
+    {
+      "site": "3.bp.blogspot.com",
+      "grau": 18906
+    },
+    {
+      "site": "en.wikipedia.org",
+      "grau": 14992
+    },
+    {
+      "site": "bp3.blogger.com",
+      "grau": 13822
+    },
+    {
+      "site": "bp2.blogger.com",
+      "grau": 13784
+    },
+    {
+      "site": "bp1.blogger.com",
+      "grau": 13750
+    },
+    {
+      "site": "bp0.blogger.com",
+      "grau": 13736
+    }
+  ],
+  "ataque_grau_arestas_removidas": 1997719,
+  "ataque_grau": {
+    "A_maior_componente": 38937,
+    "A_fracao": 0.06483967014814025,
+    "A_fracao_do_original": 0.06159777382984479,
+    "B_n_componentes": 470352,
+    "D_isolados": 441604,
+    "D_fracao_isolados": 0.7353791431311947,
+    "C_caminho_medio": 34.5764365454421,
+    "C_caminho_medio_ic95": [
+      33.7146092146365,
+      35.438263876247696
+    ],
+    "C_diametro": 85,
+    "C_diametro_exato": true
+  },
+  "ataque_pagerank_sobreposicao_com_grau": 0.9122290776775827,
+  "ataque_pagerank": {
+    "A_maior_componente": 26623,
+    "A_fracao": 0.04433383512735799,
+    "A_fracao_do_original": 0.042117202986156045,
+    "B_n_componentes": 485823,
+    "D_isolados": 455908,
+    "D_fracao_isolados": 0.7591988170094852,
+    "C_caminho_medio": 36.165085267823606,
+    "C_caminho_medio_ic95": [
+      35.13206395474637,
+      37.19810658090084
+    ],
+    "C_diametro": 110,
+    "C_diametro_exato": true
+  },
+  "curva_degradacao": {
+    "fracoes": [
+      0.0,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "aleatorio": [
+      1.0,
+      0.9847654785427381,
+      0.9667324245353313,
+      0.9226409035036235,
+      0.8406038755483558,
+      0.7710234023131793,
+      0.6929587402332164
+    ],
+    "grau": [
+      1.0,
+      0.5109781891643478,
+      0.368147036070854,
+      0.06159777382984479,
+      0.0003306349932053718,
+      2.3729784201342473e-05,
+      9.491913680536989e-06
+    ]
+  }
+}

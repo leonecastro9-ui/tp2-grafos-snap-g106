@@ -1,0 +1,543 @@
+{
+  "config": {
+    "T_padrao": 30,
+    "T_caro": 10
+  },
+  "grafo": {
+    "n": 632117,
+    "m": 1590365,
+    "custo": "1/peso (peso = nº de hiperlinks)"
+  },
+  "BFS": {
+    "n_repeticoes": 30,
+    "media_s": 1.0092589396000144,
+    "desvio_s": 0.18831910346502717,
+    "ic95": [
+      0.9418710521702621,
+      1.0766468270297669
+    ],
+    "distribuicao_ic": "Normal (Z)",
+    "min_s": 0.7821863389999635,
+    "max_s": 1.451159104999988,
+    "complexidade_teorica": "O(n + m)",
+    "observacao": "a partir do vertice 339563 alcanca 632,117 vertices; excentricidade = 13"
+  },
+  "DFS": {
+    "n_repeticoes": 30,
+    "media_s": 0.875843843800006,
+    "desvio_s": 0.10725864850227679,
+    "ic95": [
+      0.837462534638341,
+      0.9142251529616711
+    ],
+    "distribuicao_ic": "Normal (Z)",
+    "min_s": 0.7280116459999135,
+    "max_s": 1.174413450999964,
+    "complexidade_teorica": "O(n + m)",
+    "observacao": "percorre 632,117 vertices (versao iterativa)"
+  },
+  "Eulerianidade": {
+    "n_repeticoes": 30,
+    "media_s": 0.0191467197333471,
+    "desvio_s": 0.00014577739756811895,
+    "ic95": [
+      0.019094554920131818,
+      0.019198884546562385
+    ],
+    "distribuicao_ic": "Normal (Z)",
+    "min_s": 0.018985149999934947,
+    "max_s": 0.019750332000057824,
+    "complexidade_teorica": "O(n)",
+    "resultado": {
+      "vertices_grau_impar": 491762,
+      "conexo": true,
+      "circuito_euleriano": false,
+      "trilha_euleriana": false
+    }
+  },
+  "Dijkstra": {
+    "n_repeticoes": 30,
+    "media_s": 2.9532095795999793,
+    "desvio_s": 0.23673554066316532,
+    "ic95": [
+      2.8684964109872495,
+      3.037922748212709
+    ],
+    "distribuicao_ic": "Normal (Z)",
+    "min_s": 2.4839084799998545,
+    "max_s": 3.5126936940000633,
+    "complexidade_teorica": "O((n + m) log n)"
+  },
+  "Prim": {
+    "n_repeticoes": 30,
+    "media_s": 9.816538190399987,
+    "desvio_s": 0.4011769687503182,
+    "ic95": [
+      9.672981493749845,
+      9.96009488705013
+    ],
+    "distribuicao_ic": "Normal (Z)",
+    "min_s": 8.97551439200015,
+    "max_s": 10.788672830999985,
+    "complexidade_teorica": "O(m log n)",
+    "resultado": {
+      "custo_total": 463732.57535513915,
+      "arestas_na_arvore": 632116
+    }
+  },
+  "Kruskal": {
+    "n_repeticoes": 10,
+    "media_s": 3.6038315623000017,
+    "desvio_s": 0.1873331224049161,
+    "ic95": [
+      3.4698308297845157,
+      3.7378322948154876
+    ],
+    "distribuicao_ic": "t-Student",
+    "min_s": 3.2860434059998624,
+    "max_s": 3.824901967000187,
+    "complexidade_teorica": "O(m log m)",
+    "resultado": {
+      "custo_total": 463732.57535513793,
+      "arestas_na_arvore": 632116
+    }
+  },
+  "Tarjan_articulacoes": {
+    "n_repeticoes": 10,
+    "media_s": 1.856977987800019,
+    "desvio_s": 0.19060577167321818,
+    "ic95": [
+      1.7206363056778164,
+      1.9933196699222215
+    ],
+    "distribuicao_ic": "t-Student",
+    "min_s": 1.5791117469998426,
+    "max_s": 2.1122269190000225,
+    "complexidade_teorica": "O(n + m)",
+    "resultado": {
+      "vertices_de_articulacao": 66389,
+      "pontes": 424176,
+      "fracao_articulacoes": 0.10502644288952837
+    }
+  },
+  "Tarjan_SCC": {
+    "n_repeticoes": 10,
+    "media_s": 1.3100711842000692,
+    "desvio_s": 0.08677422805365746,
+    "ic95": [
+      1.248000953514848,
+      1.3721414148852904
+    ],
+    "distribuicao_ic": "t-Student",
+    "min_s": 1.198160573000223,
+    "max_s": 1.4558393309998792,
+    "complexidade_teorica": "O(n + m)",
+    "resultado": {
+      "n_vertices_dirigido": 673017,
+      "m_arestas_dirigido": 1621841,
+      "n_scc": 658052,
+      "maior_scc": 13694,
+      "fracao_maior_scc": 0.02034718290919843,
+      "scc_triviais": 657302
+    }
+  },
+  "Bellman_Ford": {
+    "n_repeticoes": 10,
+    "media_s": 0.015284343800021815,
+    "desvio_s": 0.00016373761617517757,
+    "ic95": [
+      0.015167221103158905,
+      0.015401466496884725
+    ],
+    "distribuicao_ic": "t-Student",
+    "min_s": 0.015009448000000702,
+    "max_s": 0.01545528299993748,
+    "complexidade_teorica": "O(n·m)",
+    "observacao": "executado sobre subgrafo induzido com n=3,000 e m=22,130; inviavel na componente gigante inteira (n·m ≈ 1.01e+12 relaxamentos)",
+    "resultado": {
+      "ciclo_negativo": false,
+      "n": 3000,
+      "m": 22130
+    }
+  },
+  "Floyd_Warshall": {
+    "n_repeticoes": 10,
+    "media_s": 2.014269927299938,
+    "desvio_s": 0.0767537673845479,
+    "ic95": [
+      1.959367404346086,
+      2.06917245025379
+    ],
+    "distribuicao_ic": "t-Student",
+    "min_s": 1.9074108059999162,
+    "max_s": 2.1707890349998706,
+    "complexidade_teorica": "O(n^3)",
+    "observacao": "executado sobre subgrafo induzido com n=400 e m=2,448; na componente gigante seriam 2.53e+17 operacoes e O(n^2) = 3.2 TB de memoria"
+  },
+  "Floyd_Warshall_NumPy": {
+    "n_repeticoes": 10,
+    "media_s": 0.15346656009987783,
+    "desvio_s": 0.005955295289074207,
+    "ic95": [
+      0.1492066944613973,
+      0.15772642573835835
+    ],
+    "distribuicao_ic": "t-Student",
+    "min_s": 0.1450047190000987,
+    "max_s": 0.16631466399985584,
+    "complexidade_teorica": "O(n^3) (vetorizado em NumPy)",
+    "resultado": {
+      "n": 400,
+      "distancia_media_ponderada": 0.8478881546322002,
+      "maior_distancia_ponderada": 3.157880349890659
+    }
+  },
+  "escalabilidade": {
+    "BFS": [
+      {
+        "n": 2000,
+        "m": 14198,
+        "tempo_medio_s": 0.0019872218000273278
+      },
+      {
+        "n": 5000,
+        "m": 37355,
+        "tempo_medio_s": 0.006631261000075028
+      },
+      {
+        "n": 10000,
+        "m": 83687,
+        "tempo_medio_s": 0.023327031999997416
+      },
+      {
+        "n": 25000,
+        "m": 207693,
+        "tempo_medio_s": 0.04614521240027898
+      },
+      {
+        "n": 50000,
+        "m": 344217,
+        "tempo_medio_s": 0.07354479159994298
+      },
+      {
+        "n": 100000,
+        "m": 638468,
+        "tempo_medio_s": 0.14810931060001167
+      },
+      {
+        "n": 200000,
+        "m": 923230,
+        "tempo_medio_s": 0.2692917841999588
+      },
+      {
+        "n": 400000,
+        "m": 1263005,
+        "tempo_medio_s": 0.5167885299999397
+      },
+      {
+        "n": 632117,
+        "m": 1590365,
+        "tempo_medio_s": 0.8354022722000082
+      }
+    ],
+    "DFS": [
+      {
+        "n": 2000,
+        "m": 14198,
+        "tempo_medio_s": 0.0023551487999611707
+      },
+      {
+        "n": 5000,
+        "m": 37355,
+        "tempo_medio_s": 0.006754266400002961
+      },
+      {
+        "n": 10000,
+        "m": 83687,
+        "tempo_medio_s": 0.014415291199929925
+      },
+      {
+        "n": 25000,
+        "m": 207693,
+        "tempo_medio_s": 0.03748489760000666
+      },
+      {
+        "n": 50000,
+        "m": 344217,
+        "tempo_medio_s": 0.04694603540001481
+      },
+      {
+        "n": 100000,
+        "m": 638468,
+        "tempo_medio_s": 0.10472905980004725
+      },
+      {
+        "n": 200000,
+        "m": 923230,
+        "tempo_medio_s": 0.20719340519999604
+      },
+      {
+        "n": 400000,
+        "m": 1263005,
+        "tempo_medio_s": 0.5459335640000063
+      },
+      {
+        "n": 632117,
+        "m": 1590365,
+        "tempo_medio_s": 0.8295134452000639
+      }
+    ],
+    "Dijkstra": [
+      {
+        "n": 2000,
+        "m": 14198,
+        "tempo_medio_s": 0.004970202999932856
+      },
+      {
+        "n": 5000,
+        "m": 37355,
+        "tempo_medio_s": 0.013215890999921006
+      },
+      {
+        "n": 10000,
+        "m": 83687,
+        "tempo_medio_s": 0.03318022299996907
+      },
+      {
+        "n": 25000,
+        "m": 207693,
+        "tempo_medio_s": 0.15978577800008983
+      },
+      {
+        "n": 50000,
+        "m": 344217,
+        "tempo_medio_s": 0.2532993346667354
+      },
+      {
+        "n": 100000,
+        "m": 638468,
+        "tempo_medio_s": 0.5896361919999435
+      },
+      {
+        "n": 200000,
+        "m": 923230,
+        "tempo_medio_s": 0.949581588666509
+      },
+      {
+        "n": 400000,
+        "m": 1263005,
+        "tempo_medio_s": 1.890809218999948
+      },
+      {
+        "n": 632117,
+        "m": 1590365,
+        "tempo_medio_s": 2.980808184999963
+      }
+    ],
+    "Prim": [
+      {
+        "n": 2000,
+        "m": 14198,
+        "tempo_medio_s": 0.013549622333205965
+      },
+      {
+        "n": 5000,
+        "m": 37355,
+        "tempo_medio_s": 0.05142741333323405
+      },
+      {
+        "n": 10000,
+        "m": 83687,
+        "tempo_medio_s": 0.1324089313334298
+      },
+      {
+        "n": 25000,
+        "m": 207693,
+        "tempo_medio_s": 0.5947352410001562
+      },
+      {
+        "n": 50000,
+        "m": 344217,
+        "tempo_medio_s": 1.1535852970000633
+      },
+      {
+        "n": 100000,
+        "m": 638468,
+        "tempo_medio_s": 2.9388210763334732
+      },
+      {
+        "n": 200000,
+        "m": 923230,
+        "tempo_medio_s": 4.508830073000051
+      },
+      {
+        "n": 400000,
+        "m": 1263005,
+        "tempo_medio_s": 7.454648293333321
+      },
+      {
+        "n": 632117,
+        "m": 1590365,
+        "tempo_medio_s": 9.78924897500004
+      }
+    ],
+    "Kruskal": [
+      {
+        "n": 2000,
+        "m": 14198,
+        "tempo_medio_s": 0.013607582333255172
+      },
+      {
+        "n": 5000,
+        "m": 37355,
+        "tempo_medio_s": 0.04288913333311939
+      },
+      {
+        "n": 10000,
+        "m": 83687,
+        "tempo_medio_s": 0.09125691633335009
+      },
+      {
+        "n": 25000,
+        "m": 207693,
+        "tempo_medio_s": 0.21961172833319628
+      },
+      {
+        "n": 50000,
+        "m": 344217,
+        "tempo_medio_s": 0.41586111566660594
+      },
+      {
+        "n": 100000,
+        "m": 638468,
+        "tempo_medio_s": 0.945149018333268
+      },
+      {
+        "n": 200000,
+        "m": 923230,
+        "tempo_medio_s": 1.5526953883333288
+      },
+      {
+        "n": 400000,
+        "m": 1263005,
+        "tempo_medio_s": 2.438375802666542
+      },
+      {
+        "n": 632117,
+        "m": 1590365,
+        "tempo_medio_s": 3.307185263666573
+      }
+    ],
+    "Tarjan_articulacoes": [
+      {
+        "n": 2000,
+        "m": 14198,
+        "tempo_medio_s": 0.004390171666879421
+      },
+      {
+        "n": 5000,
+        "m": 37355,
+        "tempo_medio_s": 0.01143418933331001
+      },
+      {
+        "n": 10000,
+        "m": 83687,
+        "tempo_medio_s": 0.02700267966656611
+      },
+      {
+        "n": 25000,
+        "m": 207693,
+        "tempo_medio_s": 0.09622984666672589
+      },
+      {
+        "n": 50000,
+        "m": 344217,
+        "tempo_medio_s": 0.11407537933337153
+      },
+      {
+        "n": 100000,
+        "m": 638468,
+        "tempo_medio_s": 0.2965997066667114
+      },
+      {
+        "n": 200000,
+        "m": 923230,
+        "tempo_medio_s": 0.5448573386665885
+      },
+      {
+        "n": 400000,
+        "m": 1263005,
+        "tempo_medio_s": 0.9401396999999937
+      },
+      {
+        "n": 632117,
+        "m": 1590365,
+        "tempo_medio_s": 1.6259732683333823
+      }
+    ],
+    "Bellman_Ford": [
+      {
+        "n": 250,
+        "m": 1420,
+        "tempo_medio_s": 0.0004153506667231947
+      },
+      {
+        "n": 500,
+        "m": 3292,
+        "tempo_medio_s": 0.0014171763333858205
+      },
+      {
+        "n": 1000,
+        "m": 6991,
+        "tempo_medio_s": 0.003783423999872563
+      },
+      {
+        "n": 2000,
+        "m": 14198,
+        "tempo_medio_s": 0.010094835000018065
+      },
+      {
+        "n": 4000,
+        "m": 29734,
+        "tempo_medio_s": 0.027632516666623513
+      }
+    ],
+    "Floyd_Warshall": [
+      {
+        "n": 50,
+        "m": 147,
+        "tempo_medio_s": 0.0026453576665517176
+      },
+      {
+        "n": 100,
+        "m": 544,
+        "tempo_medio_s": 0.019412980333375646
+      },
+      {
+        "n": 200,
+        "m": 1132,
+        "tempo_medio_s": 0.15899463900010838
+      },
+      {
+        "n": 300,
+        "m": 1708,
+        "tempo_medio_s": 0.49119344233334533
+      },
+      {
+        "n": 400,
+        "m": 2448,
+        "tempo_medio_s": 1.2126736423330537
+      }
+    ]
+  },
+  "expoentes_empiricos": {
+    "BFS_em_(n+m)": 1.167092461687582,
+    "DFS_em_(n+m)": 1.1399239180369272,
+    "Dijkstra_em_(n+m)logn": 1.1776971090032105,
+    "Prim_em_mlogn": 1.2638349128269153,
+    "Kruskal_em_mlogm": 1.061174473178627,
+    "Tarjan_em_(n+m)": 1.1819749185473118,
+    "Bellman_Ford_em_nm": 0.7158767906765184,
+    "Floyd_Warshall_em_n3": 0.9814649289762549
+  }
+}

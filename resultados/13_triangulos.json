@@ -1,0 +1,69 @@
+{
+  "n_vertices": 673017,
+  "n_arestas": 1614246,
+  "n_triangulos_exato": 1379223,
+  "custo_do_algoritmo_operacoes": 40173559,
+  "tempo_s": 7.642838954925537,
+  "clusterizacao_media_propria": 0.04501593992178114,
+  "clusterizacao_media_igraph": 0.04501593992178114,
+  "diferenca_clusterizacao": 0.0,
+  "transitividade_propria": 0.001839403574126043,
+  "transitividade_igraph": 0.001839403574126043,
+  "diferenca_transitividade": 0.0,
+  "n_triplas_conectadas": 2249462303.0,
+  "vertices_em_algum_triangulo": 87880,
+  "fracao_vertices_em_triangulo": 0.13057619644080312,
+  "top_triangulos": [
+    {
+      "site": "thomastraveltales.com",
+      "triangulos": 32334,
+      "grau": 1303
+    },
+    {
+      "site": "en.wikipedia.org",
+      "triangulos": 31201,
+      "grau": 14992
+    },
+    {
+      "site": "greatfindsanddeals.com",
+      "triangulos": 30822,
+      "grau": 1288
+    },
+    {
+      "site": "thomasweblinks.us",
+      "triangulos": 29545,
+      "grau": 1203
+    },
+    {
+      "site": "wathomejobs.com",
+      "triangulos": 28044,
+      "grau": 1099
+    },
+    {
+      "site": "blogger.com",
+      "triangulos": 27875,
+      "grau": 23196
+    },
+    {
+      "site": "areyougrateful.blogspot.com",
+      "triangulos": 27085,
+      "grau": 1114
+    },
+    {
+      "site": "philboardexamresults.blogspot.com",
+      "triangulos": 26393,
+      "grau": 1061
+    },
+    {
+      "site": "aiminghigher.blogspot.com",
+      "triangulos": 26267,
+      "grau": 1068
+    },
+    {
+      "site": "lavanderiavirtual.blogspot.com",
+      "triangulos": 26201,
+      "grau": 1072
+    }
+  ],
+  "confere_com_igraph": true
+}

@@ -1,0 +1,177 @@
+{
+  "agosto": {
+    "mes": "agosto/2008",
+    "n_vertices": 673017,
+    "n_arestas": 1614246,
+    "grau_medio": 4.7970437596672895,
+    "grau_max": 23196,
+    "grau_mediano": 1.0,
+    "densidade": 7.127681599943076e-06,
+    "n_componentes": 17265,
+    "fracao_componente_gigante": 0.9392288753478738,
+    "clusterizacao_media": 0.04501593992178114,
+    "transitividade_global": 0.001839403574126043,
+    "diametro": 21,
+    "raio": 11,
+    "diametro_exato": true,
+    "caminho_medio": {
+      "L": 4.321878829202235,
+      "ic95": [
+        4.280358875699176,
+        4.363398782705294
+      ],
+      "n_fontes": 500
+    },
+    "cauda": {
+      "k_min": 61,
+      "gamma": 2.5238861681003946,
+      "ks_D": 0.01526230005245792,
+      "n_cauda": 6165,
+      "erro_padrao_gamma": 0.019408232521042932
+    },
+    "robustez": {
+      "r": 31605,
+      "T": 10,
+      "S_aleatorio_media": 0.9132116364533781,
+      "S_aleatorio_desvio": 0.0091966259727574,
+      "S_ataque_grau": 0.06159777382984479,
+      "razao": 0.0674518056614684
+    }
+  },
+  "setembro": {
+    "mes": "setembro/2008",
+    "n_vertices": 926946,
+    "n_arestas": 2427184,
+    "grau_medio": 5.23694799912832,
+    "grau_max": 30236,
+    "grau_mediano": 1.0,
+    "densidade": 5.649685794872749e-06,
+    "n_componentes": 23498,
+    "fracao_componente_gigante": 0.9389781065995214,
+    "clusterizacao_media": 0.05097411509472234,
+    "transitividade_global": 0.0033886366311211766,
+    "diametro": 20,
+    "raio": 10,
+    "diametro_exato": true,
+    "caminho_medio": {
+      "L": 4.535504511242778,
+      "ic95": [
+        4.487336887704075,
+        4.583672134781482
+      ],
+      "n_fontes": 500
+    },
+    "cauda": {
+      "k_min": 92,
+      "gamma": 2.2660391068716583,
+      "ks_D": 0.01991721294382698,
+      "n_cauda": 4526,
+      "erro_padrao_gamma": 0.018818709840574026
+    },
+    "robustez": {
+      "r": 43519,
+      "T": 10,
+      "S_aleatorio_media": 0.9178909949884074,
+      "S_aleatorio_desvio": 0.0081247147124523,
+      "S_ataque_grau": 0.2127043068445809,
+      "razao": 0.2317315541888144
+    }
+  },
+  "comparacao": {
+    "n_vertices": {
+      "agosto": 673017,
+      "setembro": 926946,
+      "variacao_pct": 37.72995332955929
+    },
+    "n_arestas": {
+      "agosto": 1614246,
+      "setembro": 2427184,
+      "variacao_pct": 50.36023010123612
+    },
+    "grau_medio": {
+      "agosto": 4.7970437596672895,
+      "setembro": 5.23694799912832,
+      "variacao_pct": 9.17031950301703
+    },
+    "grau_max": {
+      "agosto": 23196,
+      "setembro": 30236,
+      "variacao_pct": 30.350060355233662
+    },
+    "densidade": {
+      "agosto": 7.127681599943076e-06,
+      "setembro": 5.649685794872749e-06,
+      "variacao_pct": -20.73599647158945
+    },
+    "n_componentes": {
+      "agosto": 17265,
+      "setembro": 23498,
+      "variacao_pct": 36.101940341731826
+    },
+    "fracao_componente_gigante": {
+      "agosto": 0.9392288753478738,
+      "setembro": 0.9389781065995214,
+      "variacao_pct": -0.026699429173694438
+    },
+    "clusterizacao_media": {
+      "agosto": 0.04501593992178114,
+      "setembro": 0.05097411509472234,
+      "variacao_pct": 13.235700916817494
+    },
+    "transitividade_global": {
+      "agosto": 0.001839403574126043,
+      "setembro": 0.0033886366311211766,
+      "variacao_pct": 84.22474973885062
+    },
+    "diametro": {
+      "agosto": 21,
+      "setembro": 20,
+      "variacao_pct": -4.761904761904762
+    },
+    "raio": {
+      "agosto": 11,
+      "setembro": 10,
+      "variacao_pct": -9.090909090909092
+    },
+    "caminho_medio": {
+      "agosto": 4.321878829202235,
+      "setembro": 4.535504511242778,
+      "variacao_pct": 4.942889203582235
+    },
+    "gamma": {
+      "agosto": 2.5238861681003946,
+      "setembro": 2.2660391068716583,
+      "variacao_pct": -10.216271418564217
+    },
+    "k_min": {
+      "agosto": 61,
+      "setembro": 92
+    },
+    "S_aleatorio": {
+      "agosto": 0.9132116364533781,
+      "setembro": 0.9178909949884074,
+      "variacao_pct": 0.5124068012539188
+    },
+    "S_ataque_grau": {
+      "agosto": 0.06159777382984479,
+      "setembro": 0.2127043068445809,
+      "variacao_pct": 245.31167868525034
+    }
+  },
+  "concentracao_de_arestas": {
+    "agosto": {
+      "n_cg": 632117,
+      "m_cg": 1590365,
+      "r": 31605,
+      "fracao_pontas_no_top5": 0.6280693425723026,
+      "grau_medio_cg": 5.031869100182403
+    },
+    "setembro": {
+      "n_cg": 870382,
+      "m_cg": 2392838,
+      "r": 43519,
+      "fracao_pontas_no_top5": 0.6106911541859499,
+      "grau_medio_cg": 5.498362787833388
+    }
+  }
+}

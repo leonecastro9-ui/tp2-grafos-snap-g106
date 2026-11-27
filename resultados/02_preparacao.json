@@ -1,0 +1,22 @@
+{
+  "arestas_dirigidas_distintas": 1621841,
+  "pares_reciprocos_fundidos": 7595,
+  "n_vertices": 673017,
+  "n_arestas_nao_dirigidas": 1614246,
+  "n_componentes": 17265,
+  "tamanho_componente_gigante": 632117,
+  "fracao_componente_gigante": 0.9392288753478738,
+  "maiores_componentes": [
+    632117,
+    119,
+    105,
+    69,
+    68,
+    42,
+    41,
+    41,
+    41,
+    37
+  ],
+  "arestas_componente_gigante": 1590365
+}
